@@ -17,8 +17,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X655C
 PRODUCT_NAME := omni_X655C
-PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X655C
+PRODUCT_BRAND := infinix
+PRODUCT_MODEL := X655C
 PRODUCT_MANUFACTURER := infinix
 
 # Dynamic Partition
