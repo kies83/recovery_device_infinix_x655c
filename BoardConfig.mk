@@ -124,7 +124,6 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TARGET_USES_MKE2FS := true
 TW_DEVICE_VERSION := By Parvej0099
-TARGET_RECOVERY_INITRC := $(DEVICE_PATH)/recovery/root/init.recovery.mt6765.rc
 
 # Exclude
 TW_EXCLUDE_TWRPAPP := true
