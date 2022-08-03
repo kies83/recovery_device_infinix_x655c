@@ -6,8 +6,6 @@
 /vendor_image	    emmc  	/dev/block/mapper/vendor                flags=backup=1;flashimg=1;display="Vendor Image";slotselect
 /product_image	  emmc	/dev/block/mapper/product                 flags=backup=1;flashimg=1;display="Product Image";slotselect
 
-
-/data			f2fs	/dev/block/platform/bootdevice/by-name/userdata		flags=fileencryption=aes-256-xts
 /proinfo		emmc	/dev/block/platform/bootdevice/by-name/proinfo		flags=display="proinfo";backup=1;flashimg=1
 /nvram			emmc	/dev/block/platform/bootdevice/by-name/nvram		flags=display="nvram";backup=1;flashimg=1
 /protect_f		ext4	/dev/block/platform/bootdevice/by-name/protect1		flags=display="protect_f";backup=1;flashimg=1
